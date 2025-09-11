@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tables</title>
 </head>
 <body>
     <table border="2px" align="center" bgcolor="eef1ff" cellpadding="3px" spacepadding="3px">
@@ -52,8 +52,83 @@
         </tbody>
 
     </table>
+    <br><br><br> <br><br><br><br>
+   
+    <table border="2px" align="center" bgcolor="fff1ee" cellpadding="3px" spacepadding="3px">
 
-</thead>
+        <caption><strong>  <font color="fe00f9"> Product List</font></strong></caption>
+        <thead>
+           <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Extended</th>
+           </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hard Disk</td>
+                <td>1</td>
+                <td>500$</td>
+                <td>400$</td>
+            </tr>
+            <tr>
+                <td>Cd Drive</td>
+                <td>1</td>
+                <td>200$</td>
+                <td>500$</td>
+            </tr>
+            <tr>
+                <td>Cds</td>
+                <td>10</td>
+                <td>20$</td>
+                <td>50$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr >
+                 <td colspan="3" align="right"> TotalAmount</td></right>
+                <td> 950$</td>
+            </tr>
+            
+        </tfoot>
+
+    </table>
+    <br><br><br><br><br>
+        <table border="2px" align="center" bgcolor="ff818e" cellpadding="3px" spacepadding="3px">
+
+        <caption><strong>  <font color="ff9900"> Product List</font></strong></caption>
+
+        <thead>
+            <tr>
+                <th rowspan="2">Station</th>
+                <th colspan="2">Temparature</th>
+                <th rowspan="2">Humidity</th>
+                <th rowspan="2">Weather</th>
+            </tr>
+            <tr>
+                <th>Max</th>
+                <th>Min</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>USA</td>
+                <td>24</td>
+                <td>19</td>
+                <td>60%</td>
+                <td>Cloudy</td>
+            </tr>
+            <tr>
+                <td>Germany</td>
+                <td>5</td>
+                <td>-1</td>
+                <td>70%</td>
+                <td>Rainy</td>
+            </tr>
+        </tbody>
+    
+    </table>
 </body>
 
 </html>
