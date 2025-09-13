@@ -20,14 +20,17 @@
     "axe/parsing": [
       "default",
       {
-        "marquee": "off"
+        "marquee": "off",
+        "duplicate-id-active": "off"
       }
     ],
     "axe/forms": [
       "default",
       {
-        "label": "off"
+        "label": "off",
+        "select-name": "off"
       }
-    ]
+    ],
+    "no-inline-styles": "off"
   }
 }

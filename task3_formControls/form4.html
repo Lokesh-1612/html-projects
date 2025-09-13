@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form name="Html Form" action="htmlserver" method="post">
+        <table border="0px" bgcolor="#0A2C52" cellpadding="10px" cellspacing="10px" align="center">
+            <caption>
+                <h3>Registration Form</h3>
+            </caption>
+            <tr>
+                <td bgcolor="orange" colspan="3"><label for="">
+                        <font color="yellow">Signup</font>
+                    </label>
+                    <hr>
+                </td>
+
+
+            </tr>
+            <tr>
+                <td></td>
+
+                <td> <label for="FirstNAme">
+                        <font color="yellow"> First Name </font>
+                    </label></td>
+                <td>
+                    <input type="text" id="FirstNAme" value="" placeholder="Enter First Name..." required>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <label for="LastNAme">
+                        <font color="yellow"> Last Name </font>
+                    </label></td>
+                <td>
+                    <input type="text" id="LastNAme" value="" placeholder="Enter Last Name..." required>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <label for="ScreenName">
+                        <font color="yellow">Screen Name</font>
+                    </label></td>
+                <td>
+                    <input type="text" id="ScreenName" value="" required>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <label for="DOB">
+                        <font color="yellow">Date of Birth</font>
+                    </label>
+                </td>
+                <td colspan="3">
+                    <select name="DOB" id="Dob" required style="color: green;">
+                        <option value="">Month</option>
+                        <option value="jan">Jan</option>
+                        <option value="Feb">Feb</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="Aug">Aug</option>
+                        <option value="Sep"> Sep </option>
+                        <option value="Oct"> Oct</option>
+                        <option value="Nov">Nov</option>
+                        <option value="Dec">Dec</option>
+                    </select>
+                    <select name="DOB" id="Dob" required style="color:green">
+                        <option value="Date">Date</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <select name="DOB" id="Dob" required style="color: green;">
+                        <option value="Year">Year</option>
+                        <option value="">2000</option>
+                        <option value="">2001</option>
+                        <option value="">2002</option>
+                        <option value="">2003</option>
+                        <option value="">2004</option>
+                        <option value="">2005</option>
+                        <option value="">2006</option>
+                        <option value="">2007</option>
+                        <option value="">2008</option>
+                        <option value="">2009</option>
+                        <option value="">2010</option>
+                    </select>
+
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <label for="Gender">
+                        <font color="yellow">Gender</font>
+                    </label>
+                </td>
+                <td>
+
+                    <input type="radio" id="male" name="Gender" value="male" required>
+                    <label for="male">
+                        <font style="color: yellow">Male</font>
+                    </label>
+
+                    <input type="radio" id="Female" name="Gender" value="female">
+                    <label for="Female">
+                        <font color="yellow">Female</font>
+                    </label>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <label for="country">
+                        <font color="yellow">Country</font>
+                    </label>
+                </td>
+
+                <td colspan="2">
+
+                    <select id="country" name="Country" style="width: 100%" required>
+                        <option value="select country">select country </option>
+                        <option value="USA">USA</option>
+                        <option value="INDIA">INDIA</option>
+                        <option value="Russia">Russia</option>
+                        <option value="Europe">Europe</option>
+                        <option value="Germany">Germany</option>
+
+
+                    </select>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td> <label for="Email">
+                        <font color="yellow">Email</font>
+                    </label></td>
+                <td>
+                    <input type="email" id="Email" placeholder="Enter Email....." required>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <label for="Mobile">
+                        <font color="yellow"> Phone </font>
+                    </label></td>
+                <td>
+                    <input type="tel" id="Mobile" placeholder="Enter Phone..." required>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+
+                    <label for="Password">
+                        <font color="yellow">Password</font>
+                    </label>
+                </td>
+                <td>
+                    <input type="password" name="password" id="password" required>
+                </td>
+                </tr>
+            <tr>
+            <tr>
+                <td></td>
+                <td>
+                    <label for="confirm password">
+                        <font color="yellow">confirm Password</font>
+                    </label>
+                </td>
+                <td>
+                    <input type="password" name="confirm password" id="confirm password" required>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <input type="checkbox"><font color="yellow">i agree to the terms of use</font>
+                </td>
+        
+            </tr>
+          
+
+              <tr colspan="3" align="right" >
+                      <td></td>
+                      <td></td>
+                      <td>
+                          <input type="submit" >
+                          <input type="reset" placeholder="cancel">
+                      </td>
+                  </tr>
+        
+          
+        </table>
+
+    </form>
+
+</body>
+
+</html>
