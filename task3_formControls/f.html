@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="https://www.registration.com" method="get">
+        <table border="0" align="center" bgcolor="lightblue" cellspacing="5" cellpadding="5">
+            <caption><h3>Registration Form</h3></caption>
+
+            <tr>
+                <td><label for="firstName">First Name</label></td>
+                <td><label for="lastName">Last Name</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="firstName" name="firstName" required></td>
+                <td><input type="text" id="lastName" name="lastName" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="birthday">Birthday</label></td>
+                <td>Gender</td>
+            </tr>
+            <tr>
+                <td><input type="date" id="birthday" name="birthday" required></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><label for="phone">Phone Number</label></td>
+            </tr>
+            <tr>
+                <td><input type="email" id="email" name="email" required></td>
+                <td><input type="tel" id="phone" name="phone" required></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="subject">Subject</label></td>
+            </tr>
+            <tr>id
+                <td colspan="2">
+                    <select id="subject" name="subject" style="width: 100%;" required>
+                        <option value="">-- Choose Option --</option>
+                        <option value="Telugu">Telugu</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="English">English</option>
+                        <option value="Maths">Maths</option>
+                        <option value="Science">Science</option>
+                        <option value="Social">Social</option>
+                        <option value="None">None</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit" background-color="blue">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

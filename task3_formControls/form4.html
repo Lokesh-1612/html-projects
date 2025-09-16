@@ -9,7 +9,7 @@
 
 <body bgcolor="#ffffff" >
     <form name="Html Form" action="htmlserver" method="post" >
-        <table border="0px" bgcolor="#0A2C52" cellpadding="10px" cellspacing="10px" align="center" >
+        <table border="1px" bgcolor="#0A2C52" cellpadding="10px" cellspacing="10px" align="center" >
             <caption>
                 <h3>Registration Form</h3>
             </caption>
@@ -23,11 +23,11 @@
             <tr>
                 <td></td>
 
-                <td> <label for="FirstNAme">
+                <td> <label for="firstNAme">
                         <font color="yellow"> First Name </font>
                     </label></td>
                 <td>
-                    <input type="text" id="FirstNAme" value="" placeholder="Enter First Name..." required>
+                    <input type="text" id="firstNAme"  value="" placeholder="Enter First Name..." required>
                 </td>
             </tr>
             <tr>
@@ -36,16 +36,16 @@
                         <font color="yellow"> Last Name </font>
                     </label></td>
                 <td>
-                    <input type="text" id="LastNAme" value="" placeholder="Enter Last Name..." required>
+                    <input type="text" id="lastNAme" name="lastNAme" value="" placeholder="Enter Last Name..." required>
                 </td>
             </tr>
             <tr>
                 <td></td>
-                <td> <label for="ScreenName">
+                <td> <label for="screenName">
                         <font color="yellow">Screen Name</font>
                     </label></td>
                 <td>
-                    <input type="text" id="ScreenName" value="" required>
+                    <input type="text" id="screenName" name="screenName" required>
                 </td>
             </tr>
             <tr>
@@ -56,7 +56,7 @@
                     </label>
                 </td>
                 <td colspan="3">
-                    <select name="DOB" id="Dob" required style="color: green;">
+                    <select name="dOb" id="dob" required style="color: green;">
                         <option value="">Month</option>
                         <option value="jan">Jan</option>
                         <option value="Feb">Feb</option>
@@ -71,7 +71,7 @@
                         <option value="Nov">Nov</option>
                         <option value="Dec">Dec</option>
                     </select>
-                    <select name="DOB" id="Dob" required style="color:green">
+                    <select name="dOB" id="dob" required style="color:green">
                         <option value="Date">Date</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
