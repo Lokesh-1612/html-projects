@@ -1,0 +1,28 @@
+/*External Css file  or Css library*/
+.t-b{
+    color: blue;
+}
+.t-g{
+    color: green;
+}
+.t-a{
+    color: aqua;
+}
+.bg-s{
+    background-color: silver;
+}
+.bg-p{
+    background-color: pink;
+}
+.f-text{
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.box{
+    margin: 5px;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+}

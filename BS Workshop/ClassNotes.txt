@@ -1,0 +1,235 @@
+
+Html	-	Used to develop static web pages
+Css		-	Used to applying styles to html pages
+Js		-	Used to perform form validations
+---------------------------------------------------------------------
+1.What is Bootstrap ?
+2.Why Bootstrap has been introduced ?
+3.How to install and use Bootstrap ?
+4.Bootstrap containers ?
+	container			->	fixed width container
+	container-fluid		->	full width container
+5.What is <meta>  tag ?
+
+6.What is Grid System in Bootstrap?
+7.What you have to learn as part of Bootstrap ?
+	Responsive Text - Typograpghy
+	Responsive Table
+	Responsive Images
+	Responsive Buttons
+	Responsive Forms
+	Glyphicons
+
+---------------------------------------------------------------
+
+
+Bootstrap:
+==========				
+Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.
+It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface 
+components.
+
+Written in			: HTML, CSS, and JavaScript
+Initial release		: August 19, 2011; 
+Stable release		: 5.1.3
+Official website	: https://getbootstrap.com/
+
+-----------------------------------------------------------------------------------
+1.What is Responsive Web Design?
+-----------------------------------------------------------------------------------
+Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops.
+
+
+-----------------------------------------------------------------------------------
+2.Why Use Bootstrap?
+-----------------------------------------------------------------------------------
+
+Easy to use				: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap
+Responsive features		: Bootstrap's responsive CSS adjusts to phones, tablets, laptops and desktops
+Mobile-first approach	: In Bootstrap 3, mobile-first styles are part of the core framework
+Browser compatibility	: Bootstrap is compatible with all modern browsers (Chrome, Firefox, Internet Explorer, Edge, Safari, and Opera)
+
+
+-----------------------------------------------------------------------------------
+3.Where to Get Bootstrap?
+-----------------------------------------------------------------------------------
+There are two ways to start using Bootstrap on your own web site.
+You can:
+
+	Download Bootstrap from getbootstrap.com
+	Include Bootstrap from a CDN
+	
+
+-----------------------------------------------------------------------------------
+4.What is use of <meta> tag?
+-----------------------------------------------------------------------------------
+	
+	<meta name="description" 	content="What purpose you are designing this page">
+	
+	<meta name="keywords" 		content="Define keywords to get response as your page">
+	
+	<meta name="author" 		content="Your Name">
+	
+	<meta name="viewport" 		content="width=device-width,height=device-height, initial-scale=1.0">
+	
+	<meta http-equiv="refresh" 	content="30">
+
+The viewport is the user's visible area of a web page.
+The width=device-width part sets the width of the page to follow the screen-width of the device 
+	(which will vary depending on the device).
+The initial-scale=1 part sets the initial zoom level when the page is first loaded by the browser.
+
+
+-----------------------------------------------------------------------------------
+5.What are Bootstrap Containers ?
+-----------------------------------------------------------------------------------
+
+Bootstrap also requires a containing element to wrap site contents.
+
+There are two container classes to choose from:
+
+The .container class provides a responsive fixed width container
+The .container-fluid class provides a full width container, spanning the entire width of the viewport
+
+-----------------------------------------------------------------------------------
+
+
+
+
+
+6.What is Bootstrap Grids System ?
+-----------------------------------------------------------------------------------
+
+https://www.w3schools.com/bootstrap/bootstrap_grid_basic.asp
+
+Bootstrap's grid system is responsive, and the columns will re-arrange automatically depending on the screen size.
+
+
+Grid Classes:
+
+The Bootstrap grid system has four classes:
+
+xs (for phones - screens less than 768px wide)
+sm (for tablets - screens equal to or greater than 768px wide)
+md (for small laptops - screens equal to or greater than 992px wide)
+lg (for laptops and desktops - screens equal to or greater than 1200px wide)
+
+
+The classes above can be combined to create more dynamic and flexible layouts.
+-----------------------------------------------------------------------------------
+Bootstrap Text/Typography ?
+-----------------------------------------------------------------------------------
+
+<mark>
+<abbr>
+<blockquote>
+<kbd>
+<code>
+
+
+text colors classes:
+
+	.text-muted, .text-primary, .text-success, .text-info, .text-warning, and .text-danger
+
+background color classes:
+
+	.bg-primary, .bg-success, .bg-info, .bg-warning, and .bg-danger
+	
+	
+https://www.w3schools.com/bootstrap/bootstrap_typography.asp
+
+-----------------------------------------------------------------------------------
+Bootstrap Tables
+-----------------------------------------------------------------------------------
+Table related classes:
+
+	.table
+	.table-striped
+	.table-bordered
+	.table-hover
+
+Table row related classes:
+
+		.active
+		.success
+		.info
+		.danger
+		.warning
+-----------------------------------------------------------------------------------
+Bootstrap Images
+-----------------------------------------------------------------------------------
+	.img-rounded .img-circle .img-thumbnail .img-responsive
+
+-----------------------------------------------------------------------------------
+Bootstrap Buttons:
+-----------------------------------------------------------------------------------
+
+button styles above, Bootstrap has the following classes:
+
+.btn
+.btn-default
+.btn-primary
+.btn-success
+.btn-info
+.btn-warning
+.btn-danger
+.btn-link
+
+The classes that define the different sizes are:
+
+.btn-lg
+.btn-sm
+.btn-xs
+
+Block Level Buttons
+
+.btn-block
+
+
+Active/Disabled Buttons
+
+	.active 
+	.disabled 
+
+
+-----------------------------------------------------------------------------------
+Bootstrap Glyphicons:
+-----------------------------------------------------------------------------------
+Glyphicons can be used in text, buttons, toolbars, navigation, forms, etc.
+
+https://www.w3schools.com/bootstrap/bootstrap_glyphicons.asp
+-----------------------------------------------------------------------------------
+
+BootStrap Forms:
+================
+
+Standard Html Form:
+
+	<form>
+	
+			<label>   First Name  </label>
+			<input type="text">
+			
+			<label>   Last Name  </label>
+			<input type="text">
+			
+			<input type="submit">
+	</form>
+	
+Bootstrap Form Layouts:
+-----------------------
+
+Bootstrap provides three types of form layouts:
+
+1.Vertical form (this is default)
+2.Horizontal form
+3.Inline form
+
+
+Standard rules for all three form layouts:
+
+1.Wrap labels and form controls in <div class="form-group"> (needed for optimum spacing)
+Add class .form-control to all textual <input>, <textarea>, and <select> elements
+
+https://www.w3schools.com/bootstrap/bootstrap_forms.asp
+
