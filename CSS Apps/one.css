@@ -1,0 +1,16 @@
+  body {
+      /* background-color: silver; */
+      background-image: url('photo1.webp');
+  }
+
+  p {
+      color: yellow;
+      background-color: brown;
+      text-align: center;
+  }
+
+  h1 {
+      text-align: center;
+      color: white;
+      background-color: aqua;
+  }
